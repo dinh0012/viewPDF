@@ -1,0 +1,24 @@
+:local(.PageView) {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  bottom: 12px;
+  z-index: 3;
+  overflow: hidden;
+  .page-view {
+    background: rgba(0,0,0,0.75);
+    div {
+      display: inline-block;
+      padding-left: 15px;
+      vertical-align: middle;
+      color: #ffff;
+    }
+    div:last-child {
+      padding-right: 15px;
+    }
+  }
+}
